@@ -75,6 +75,7 @@ body {
   font-weight: bold;
   font-size: 3.5rem;
   margin-bottom: 2rem;
+  text-shadow: 0 0 5px #e08a00, 0 0 5px #091F8C;
 }
 .landing__content a{
   font-size: 1.5rem;
@@ -209,6 +210,10 @@ body {
   text-align: center;
   flex-direction: column;
 }
+
+.our_sales img{
+  max-width: 500px;
+}
 .our_sales .content p {
   font-size: 2.5rem;
 }
@@ -271,7 +276,11 @@ footer h5 {
   font-weight: bold;
 }
 footer h5 span {
-  color: var(--primary_color);
+  color: var(--header_color);
+  background-color: #fff;
+  display: inline-block;
+  padding: .5rem;
+  border-radius: 3px;
 }
 footer .logo {
   max-width: 150px;
@@ -288,7 +297,7 @@ footer a i {
 }
 footer a i:hover {
   transform: scale(1.1);
-  color: var(--primary_color);
+  color: var(--header_color);
 }
 
 @media (max-width: 768px) {
@@ -302,8 +311,8 @@ footer a i:hover {
   footer a i {
     font-size: 1.5rem;
   }
-  .paltform h5,
-  .mar5f h5 {
+  .paltform h5
+   {
     font-size: 1rem;
   }
 }
